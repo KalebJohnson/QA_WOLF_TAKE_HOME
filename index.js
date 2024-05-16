@@ -2,7 +2,9 @@
 const { chromium } = require("playwright");
 const { createObjectCsvWriter } = require('csv-writer');
 
-
+// I worked out the basic scraper logic in this script - I also threw them in some test cases
+// you can see it in the tests dir - just looked at the config and used the default path
+// QA noob energy though
 
 //////// JUST THROWN INTO ONE ASYNC FUNC ////////////////////
 
@@ -143,4 +145,4 @@ async function runTest(testType) {
 }
 
 
-runTest('v1')
+runTest('v2')
